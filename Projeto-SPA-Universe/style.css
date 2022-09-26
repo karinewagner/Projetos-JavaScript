@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family:'Roboto', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.945);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+
+  padding: 4rem;
+  padding-left: 7rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #C4C4CC;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.2rem;
+  transition: 0.5s;
+}
+
+nav a:hover {
+  cursor: pointer;
+  color: #E1E1E6;
+  font-weight: 700;
+  font-size: 2.6rem;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.home {
+  padding: 2rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-top: 15rem;
+  margin-bottom: 2.4rem;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+  color: #E1E1E6;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+button {
+  background: none;
+  color: #E1E1E6;
+  border: 3px solid #E1E1E6;
+  border-radius: 0.5rem;
+
+  padding: 1.2rem 3.2rem;
+
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+
+  cursor: pointer;
+}
+
+.exploration, .universe {
+  margin-left: 10rem;
+}
+
+h2 {
+  margin-top: 10rem;
+  margin-bottom: 1.6rem;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+  color: #E1E1E6;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+p {
+  width: 65rem;
+  color: #E1E1E6;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 160%;
+}
+
+.error {
+  width: 70rem;
+  margin: 0 auto;
+}
+
+.error h2 {
+  margin-top: 20rem;
+}
+
+.error p {
+  margin-top: 2rem;
+  width: 70rem;
+  color: #E1E1E6;
+  font-size: 4rem;
+  text-shadow: black 0.1em 0.2em 0.2em;
+}
+
+body.pageHome {
+  background: url(./img/home.png) no-repeat;
+  background-size: cover;
+}
+
+body.pageUniverse {
+  background: url(./img/universe.png) no-repeat;
+  background-size: cover;
+}
+
+body.pageExploration {
+  background: url(./img/exploration.png) no-repeat;
+  background-size: cover;
+}
+
+body.pageError {
+  background: url(./img/error.jpg) no-repeat;
+  background-size: cover;
+}
