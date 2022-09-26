@@ -1,4 +1,4 @@
-# Repositório criado para projetos de pratica com JavaScript!!
+# Repositório criado desenvolvimento de projetos com JavaScript!!
 
 > Projeto SPA UNIVERSE
 
