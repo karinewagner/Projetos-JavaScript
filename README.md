@@ -1,1 +1,10 @@
-# Projetos-JavaScript
+# Repositório criado desenvolvimento de projetos com JavaScript!!
+
+> Projeto SPA UNIVERSE
+
+## Tecnologias
+- HTML
+- CSS
+- JavaScript
+- Node.js (Primeiros passos criando um servidor)
+
